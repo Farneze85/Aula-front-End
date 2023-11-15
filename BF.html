@@ -1,0 +1,42 @@
+<doctype html>
+    <html lang="pt-br"
+    <head>
+        <meta charset="utf-8>"
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>Formulario html</title>
+    </head>
+    <body>
+        <h2>FORMULARIO</h2>
+        <form action="/processar_formulario" method="post>"
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="emaul" required>
+            
+        <br>
+
+        <label for="cidade">Cidade</label>
+        <select id="cidade" name="cidade">
+            <option value="bh">Belo Horizonte</option>
+            <option value="sp">Sao Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            </select>
+            <br>
+
+            <label>Genero:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino"checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="checked" id="newsletter" name="newsletter" checked>
+            <label for="newsletter"></label>Receber Newsletter</label>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        </body>
+        </html>
+
