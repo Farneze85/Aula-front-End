@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code coffe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Criando um cabeçalho para o site
+        Essa é uma tag semântica, ela indica ao navegador que esse é o cabeçalho do site.
+    -->
+    <header>
+        <!--Aqui estamos deifinindo a navegação do site.
+            Nav também é uma tag semântica que indica ao navegador que aqui é a nossa barra
+            de navegação.
+        -->
+        <nav>
+            <!--Criando uma lista não ordenada para criar nossa lista de links de navegação-->
+            <ul>
+                <!--Logo-->
+                <img src="images/logo.jpg" alt="">
+                <!--Crindo os links de navegação-->
+                <li><a href="Inicio">Início</a></li>
+                <li><a href="Cafes">Cafés</a></li>
+                <li><a href="Sobre nos">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Início da primeira sessão do site
+        Section também é uma tag semântica, indica ao navegador que aqui é uma sessão do site
+    -->
+    <section id="Inicio">
+
+        <!--Criando uma div para posicionar o conteúdo à esquerda da sessão-->
+        <div class="content">
+            <h1>como aproveitar o café mais delicioso</h1>
+            <p>
+                O café é mais do que uma bebida; é um
+                abraço caloroso em uma xícara, um 
+                convite para pausar e saborear a
+                vida. Bem-vindos a uma jornada de 
+                aromas, sabores e histórias, onde 
+                o café se transforma em poesia.
+            </p>
+            <button>Ver mais</button>
+            <h2> <span class="span1">Code</span> <span class="span2">coffe</span></h2>
+        </div>
+        <!--Imagem que irá ficar à direita da sessão-->
+        <img src="images/imagem_da_primeira_sessão.jpg" alt="">
+    </section>
+
+
+    <!--Criando mais uma sessão do site, essa é a sessão que contém todos os cafés para a venda-->
+    <section id="Cafes">
+
+        <!--Título que irá ficar no meio da sessão-->
+        <h1>Conheça nossos deliciosos cafés</h1>
+
+        <!--Essa div abaixo não possui classe, mas ela irá conter todo os cards do café-->
+        <div>
+
+            <!--Aqui estamos criando um card com a classe café e abaixo está mais um com a mesma classe
+                para receber o mesmo estilo
+            -->
+            <div class="coffe">
+                <h2>Café Arábica</h2>
+                <img src="images/cafe_arabic.jpg" alt="café arábica">
+                <p>
+                    Café Arábica é um tipo de café com sabor
+                    suave e notas frutadas, cultivado em 
+                    altitudes mais elevadas.
+                </p>
+                <button class="buy-button">Comprar</button>
+            </div>
+
+            <!--Outra div com classe café-->
+            <div class="coffe">
+                <h2>Cappuccino</h2>
+                <img src="images/capuccino.jpg" alt="Capuccino">
+                <p>
+                    Um café espresso misturado 
+                    com leite vaporizado e coberto
+                    com espuma de leite..
+                </p>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui estamos criando a sessão da promoção do dia-->
+    <section class="promocao-do-dia">
+        <h1>
+            Promoção do dia: Desperte com
+            sabor! Adquira o seu café 
+            favorito até as 16:00 da tarde
+            e desfrute de um
+            donut fresquinho por nossa conta.
+        </h1>
+        <img src="images/combo_do_dia.png" alt="">
+    </section>
+
+    <!--Sessão sobre nós-->
+    <section id="Sobre-nos">
+        <div class="content-text">
+            <p>
+                Bem-vindo à Code coffe, onde a 
+                paixão pelo café e o compromisso com a
+                qualidade se encontram para criar experiências
+                inesquecíveis. Fundada com amor e dedicação,
+                nossa cafeteria é mais do que um lugar para 
+                tomar café; é um refúgio acolhedor para os 
+                amantes da bebida que inspira o mundo.
+            </p>
+            <p>
+                Nossa jornada começa com grãos de café 
+                selecionados a dedo, cuidadosamente 
+                torrados para aperfeiçoar seu sabor e 
+                aroma. Cada xícara é preparada com a 
+                dedicação de baristas experientes que 
+                dominam a arte do café, garantindo que 
+                sua visita seja uma celebração do paladar.
+            </p>
+        </div>
+        
+        <img src="images/nós.jpg" alt="">
+    </section>
+
+    <!--Criando o rodapé da página com o título-->
+    <footer>
+        <h1>Feito por Matheus e Pedro Martins</h1>
+        <div>
+            <p>Whatsapp: (31) 9 9999-9999</p>
+            <p>email: CodeCoffe@gmail.com</p>
+            <p>intagram: <a href="#">Code Coffe</a></p>
+            <p>Facebook: <a href="#">Code Coffe</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--
+    https://drive.google.com/file/d/1SctkNXTE9epEChkrnX180sLxpYGWeuzj/view
+-->
